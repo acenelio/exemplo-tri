@@ -12,13 +12,13 @@ namespace exemplo {
 
             string[] s = Console.ReadLine().Split(' ');
             t1.a = double.Parse(s[0], CultureInfo.InvariantCulture);
-            t1.b = double.Parse(s[0], CultureInfo.InvariantCulture);
-            t1.c = double.Parse(s[0], CultureInfo.InvariantCulture);
+            t1.b = double.Parse(s[1], CultureInfo.InvariantCulture);
+            t1.c = double.Parse(s[2], CultureInfo.InvariantCulture);
 
             s = Console.ReadLine().Split(' ');
             t2.a = double.Parse(s[0], CultureInfo.InvariantCulture);
-            t2.b = double.Parse(s[0], CultureInfo.InvariantCulture);
-            t2.c = double.Parse(s[0], CultureInfo.InvariantCulture);
+            t2.b = double.Parse(s[1], CultureInfo.InvariantCulture);
+            t2.c = double.Parse(s[2], CultureInfo.InvariantCulture);
 
             p = (t1.a + t1.b + t1.c) / 2.0;
             area1 = Math.Sqrt(p * (p - t1.a) * (p - t1.b) * (p - t1.c));
